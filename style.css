@@ -20,6 +20,9 @@ html{
     background-color: #542E71;
     width: 100%;
   }
+  h2{
+    color: #B3CBB9;
+  }
   header{
     display: flex;
     justify-content: center;
