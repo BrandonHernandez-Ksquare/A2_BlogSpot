@@ -1,22 +1,62 @@
-html, body {
-    height: 100%;
-    width: 100%;
+html{
     text-align: center;
-    padding:;
+    justify-content: center;
+    padding-top: none;
+    margin-top: none;
   }
-  ul{
-    
+  .tulseal{
+    height: 5rem;
+  }
+  a{
+    color: #f1f1f1;
+    text-decoration: none;
   }
   li{
     text-align: center;
     list-style-position: inside;
   }
   footer{
-    background-color: aquamarine;
+    margin-top: 2rem;
+    background-color: #542E71;
+    width: 100%;
   }
   header{
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #84A9C0;
+    padding-top: none;
+    margin-top: none;
+    margin-bottom: 2rem;
   }
   body{
-    background-color: blueviolet;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: #6A66A3;
+    margin: 0px;
+  }
+  p{
+    margin: 2rem;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
