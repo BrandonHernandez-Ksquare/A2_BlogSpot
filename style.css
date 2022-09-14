@@ -20,6 +20,10 @@ html{
     background-color: #542E71;
     width: 100%;
   }
+  article, section{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   h2{
     color: #B3CBB9;
   }
